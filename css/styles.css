@@ -51,6 +51,7 @@ img{
     padding: 25px;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -61,7 +62,6 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-self: flex-start;
 }
 
 .logo{
@@ -118,9 +118,9 @@ img{
 
 .product-card{
     min-width: 300px;
-    min-height: 400px;
+    min-height: 450px;
     max-width: 300px;
-    max-height: 400px;
+    max-height: 450px;
     margin: 30px;
     position: relative;
     display: flex;
@@ -153,6 +153,10 @@ img{
     align-items: center;
 }
 
+.price{
+    text-align: center;
+}
+
 .product-info{
     height: 80%;
     display: flex;
@@ -176,4 +180,17 @@ img{
     font-family: anekRegular;
 }
 
+@media screen and (max-width: 1200px){
+    .home, .element{
+        display: none;
+    }
+    .nav-elements{
+        justify-content: flex-end;
+    }
+}
 
+@media screen and (max-width: 700px){
+    .logo{
+        font-size: 2rem;
+    }
+}
