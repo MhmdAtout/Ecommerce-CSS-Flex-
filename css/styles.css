@@ -5,6 +5,39 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: anekBold;
+    src: url("/assets/fonts/Anek_Bangla/static/AnekBangla/AnekBangla-Bold.ttf");
+}
+@font-face {
+    font-family: anekExtraBold;
+    src: url("/assets/fonts/Anek_Bangla/static/AnekBangla/AnekBangla-ExtraBold.ttf");
+}
+@font-face {
+    font-family: anekSemiBold;
+    src: url("/assets/fonts/Anek_Bangla/static/AnekBangla/AnekBangla-SemiBold.ttf");
+}
+@font-face {
+    font-family: anekThin;
+    src: url("/assets/fonts/Anek_Bangla/static/AnekBangla/AnekBangla-Thin.ttf");
+}
+@font-face {
+    font-family: anekRegular;
+    src: url("/assets/fonts/Anek_Bangla/static/AnekBangla/AnekBangla-Regular.ttf");
+}
+@font-face {
+    font-family: anekMedium;
+    src: url("/assets/fonts/Anek_Bangla/static/AnekBangla/AnekBangla-Medium.ttf");
+}
+@font-face {
+    font-family: anekLight;
+    src: url("/assets/fonts/Anek_Bangla/static/AnekBangla/AnekBangla-Light.ttf");
+}
+@font-face {
+    font-family: anekExtraLight;
+    src: url("/assets/fonts/Anek_Bangla/static/AnekBangla/AnekBangla-ExtraLight.ttf");
+}
+
 img{
     height: 100%;
     width: 100%;
