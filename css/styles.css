@@ -46,8 +46,6 @@ img{
 
 .page{
     width: 100vw;
-    overflow-x: hidden;
-    overflow-y: auto;
     padding: 25px;
     background-size: cover;
     display: flex;
@@ -96,6 +94,10 @@ img{
 }
 
 .user{
+    width: 50px;
+}
+.burger-menu{
+    display: none;
     width: 50px;
 }
 
@@ -187,6 +189,11 @@ img{
     .nav-elements{
         justify-content: flex-end;
     }
+    .burger-menu{
+        display: flex;
+        margin-left: 20px;
+    }
+
 }
 
 @media screen and (max-width: 700px){
